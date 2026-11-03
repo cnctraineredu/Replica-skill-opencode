@@ -1,0 +1,15 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "name": "replica-backend",
+  "version": "1.0.0",
+  "description": "Builds the backend of an app clone: auth, database migrations and access rules, payments with Stripe, email, background jobs and third-party integrations through official APIs only, plus a security checklist. Use when the user says \"add login\", \"set up auth\", \"wire up the database\", \"add payments\", \"connect Stripe\", \"add Google Calendar\", \"send emails\", \"backend for my clone\", or when replica-build is running on fake data.",
+  "author": "Jakeschincariol (adapted for OpenCode)",
+  "license": "MIT",
+  "tags": ["backend", "auth", "database", "payments", "email", "integrations", "security", "replica"],
+  "agent": {
+    "prompt": "instructions.md"
+  },
+  "references": [
+    "references/backend.md"
+  ]
+}

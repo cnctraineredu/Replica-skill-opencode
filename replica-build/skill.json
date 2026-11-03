@@ -1,0 +1,15 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "name": "replica-build",
+  "version": "1.0.0",
+  "description": "Rebuilds an app screen by screen from the recon map: app shell first, then the core flow as a vertical slice, then every screen with all its states, ticking off the feature matrix as it goes. Writes every line fresh, never the original's code, assets or copy. Use when the user says \"build the clone\", \"build screen S07\", \"start building\", \"rebuild this screen\", \"implement the booking page\", or after replica-design.",
+  "author": "Jakeschincariol (adapted for OpenCode)",
+  "license": "MIT",
+  "tags": ["build", "implementation", "screens", "vertical-slice", "replica"],
+  "agent": {
+    "prompt": "instructions.md"
+  },
+  "references": [
+    "references/build-log.md"
+  ]
+}

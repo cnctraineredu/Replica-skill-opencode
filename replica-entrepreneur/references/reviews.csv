@@ -1,0 +1,9 @@
+source,url,date,rating,text
+app-store,https://apps.apple.com/app/idXXXXX/review/...,2024-01-15,2,"Love the concept but the pricing is insane. $20/month per seat for a scheduling tool? My team of 5 would cost $100/month just for booking links."
+google-play,https://play.google.com/store/apps/details?id=com.example&reviewId=...,2024-01-10,3,"Works well but notifications are spammy. I get 3 emails for every booking. No way to customize what I get notified about."
+g2,https://www.g2.com/products/example/reviews/...,2024-01-08,2,"The app crashes when I try to connect Google Calendar. Support has not responded in 2 weeks. Very frustrating."
+reddit,https://www.reddit.com/r/SaaS/comments/.../switched_from_calendly_because/,2024-01-05,,"Switched from Calendly because of the per-seat pricing. If you're a small team it adds up fast. Looking for flat-rate alternatives."
+hacker-news,https://news.ycombinator.com/item?id=...,2024-01-03,,"The new redesign made the booking flow slower. Used to be 3 clicks, now it's 7. Why do companies keep doing this?"
+trustpilot,https://www.trustpilot.com/review/example.com,2024-01-01,1,"Charged me after I cancelled. No refund, no response to emails. This feels like a scam."
+capterra,https://www.capterra.com/p/.../reviews/...,2023-12-28,3,"Missing basic features like team round-robin and embeddable booking pages. Had to build workarounds."
+app-store,https://apps.apple.com/app/idXXXXX/review/...,2023-12-20,4,"Great app but would love dark mode and the ability to customize the booking page branding. Also needs offline mode for mobile."

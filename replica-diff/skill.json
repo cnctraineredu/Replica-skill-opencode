@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "name": "replica-diff",
+  "version": "1.0.0",
+  "description": "Compares an app clone against the original: a feature parity score from the feature matrix (weighted by must, should, could) with the missing list in build order, plus a screenshot layout diff that ignores colour so a rebrand does not count against you. Two standard-library Python tools. Use when the user says \"how close is my clone\", \"compare it to the original\", \"what's missing\", \"parity check\", \"diff the screens\", \"is it ready\", or after replica-test.",
+  "author": "Jakeschincariol (adapted for OpenCode)",
+  "license": "MIT",
+  "tags": ["diff", "parity", "comparison", "imgdiff", "replica"],
+  "agent": {
+    "prompt": "instructions.md"
+  },
+  "references": [],
+  "scripts": [
+    "scripts/parity.py",
+    "scripts/imgdiff.py"
+  ]
+}

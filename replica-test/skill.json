@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "name": "replica-test",
+  "version": "1.0.0",
+  "description": "Clicks through every flow of an app clone and tests it for bugs: a test plan generated from the recon flows with happy paths and edge cases, Playwright end-to-end tests where possible, a browser click-through where not, and bug reports in a fixed format with severity, steps and evidence. Use when the user says \"test my clone\", \"find bugs\", \"QA this\", \"click through everything\", \"write e2e tests\", \"does it work\", or after replica-build or replica-backend.",
+  "author": "Jakeschincariol (adapted for OpenCode)",
+  "license": "MIT",
+  "tags": ["testing", "e2e", "playwright", "qa", "bugs", "replica"],
+  "agent": {
+    "prompt": "instructions.md"
+  },
+  "references": [
+    "references/test-plan.md",
+    "references/bug-report.md",
+    "references/e2e.example.spec.ts"
+  ]
+}

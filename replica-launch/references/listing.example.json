@@ -1,0 +1,16 @@
+{
+  "avoid": ["Name Of The Original App", "Its Company"],
+  "app_store": {
+    "name": "YourApp: What It Does",
+    "subtitle": "One line value prop",
+    "promotional_text": "New feature highlight. Free for basic use.",
+    "description": "YourApp turns [problem] into [solution].\n\nShare/Use the [core feature]. Users get [benefit] without [pain point].\n\nWhat you get:\n- Fix #1 from replica-entrepreneur\n- Fix #2 from replica-entrepreneur\n- Parity feature that matters\n\nFree tier available. Pro is $X a month.",
+    "keywords": "keyword1,keyword2,keyword3,keyword4,keyword5",
+    "whats_new": "New: [feature]. Turn it on in Settings."
+  },
+  "google_play": {
+    "title": "YourApp: What It Does",
+    "short_description": "One sentence value prop under 80 chars.",
+    "full_description": "YourApp turns [problem] into [solution].\n\nShare/Use the [core feature]. Users get [benefit] without [pain point].\n\nFree tier available. Pro is $X a month."
+  }
+}

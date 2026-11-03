@@ -1,0 +1,15 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "name": "replica-architect",
+  "version": "1.0.0",
+  "description": "Plans the stack, database schema and API for an app clone, from the recon map replica-recon wrote. Picks boring, managed tech, turns the inferred data model into real SQL with indexes and access rules, lists every route by flow, and orders the build as a thin vertical slice first. Use when the user says \"plan the clone\", \"what stack should I use\", \"design the database\", \"write the schema\", \"plan the API\", \"architecture for my version of X\", or after replica-recon finishes.",
+  "author": "Jakeschincariol (adapted for OpenCode)",
+  "license": "MIT",
+  "tags": ["architecture", "database", "stack", "schema", "api", "replica"],
+  "agent": {
+    "prompt": "instructions.md"
+  },
+  "references": [
+    "references/architecture.md"
+  ]
+}

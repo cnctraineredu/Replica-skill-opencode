@@ -1,0 +1,16 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "name": "replica-recon",
+  "version": "1.0.0",
+  "description": "Reverse-engineers any app into a recon map: screen inventory, user flows, component list, inferred data model and a feature matrix, from public pages, screenshots, app store listings, help docs and the user's own account. Use when the user says \"clone this app\", \"reverse engineer X\", \"how does X work\", \"map out X\", \"what screens does X have\", \"I want to build my own version of X\", or pastes an app's URL/App Store link and wants to rebuild it.",
+  "author": "Jakeschincariol (adapted for OpenCode)",
+  "license": "MIT",
+  "tags": ["reverse-engineering", "app-clone", "recon", "replica"],
+  "agent": {
+    "prompt": "instructions.md"
+  },
+  "references": [
+    "references/recon-map.md",
+    "references/features.csv"
+  ]
+}

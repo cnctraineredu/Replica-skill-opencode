@@ -1,0 +1,69 @@
+{
+  "avoid": [
+    "Original App Name",
+    "Original Company Name"
+  ],
+  "domains": [
+    "original.com",
+    "original.io"
+  ],
+  "colors": [
+    "#006bff",
+    "#0ae8f0"
+  ],
+  "name_candidates": [
+    {
+      "name": "Candidate1",
+      "style": "descriptive",
+      "checks": {
+        "us_trademark": "to run",
+        "eu_trademark": "to run",
+        "domain_com": "to run",
+        "app_store": "to run",
+        "google_play": "to run",
+        "x_handle": "to run",
+        "github": "to run"
+      }
+    },
+    {
+      "name": "Candidate2",
+      "style": "compound",
+      "checks": {
+        "us_trademark": "to run",
+        "eu_trademark": "to run",
+        "domain_com": "to run",
+        "app_store": "to run",
+        "google_play": "to run",
+        "x_handle": "to run",
+        "github": "to run"
+      }
+    }
+  ],
+  "palette": {
+    "primary": "#your-brand-hue",
+    "note": "Different hue family than original. Checked with contrast.py"
+  },
+  "logo_brief": {
+    "concept": "One line tied to name and angle",
+    "mark_type": "wordmark | symbol+wordmark | monogram",
+    "deliverables": ["SVG", "app icon 1024x1024 (no transparency)", "favicon set", "social 1200x630"],
+    "avoid": "No shared shape, colour pair, or letterform with original's logo"
+  },
+  "voice": {
+    "three_words": ["direct", "calm", "helpful"],
+    "do_dont": [
+      {"do": "Use plain verbs: Book, Schedule, Cancel", "dont": "No marketing fluff: Seamlessly orchestrate"},
+      {"do": "Own the problem: You're double-booked", "dont": "No passive: A scheduling conflict has occurred"},
+      {"do": "Short sentences. Period.", "dont": "No walls of text in tooltips"},
+      {"do": "Empty states guide: No meetings yet — create your first event type", "dont": "No dead ends: No data available"},
+      {"do": "Errors explain how to fix: That time is taken — pick another slot", "dont": "No raw codes: Error 409 CONFLICT"}
+    ],
+    "rewritten_strings": {
+      "sign_up_title": "",
+      "empty_state": "",
+      "main_button": "",
+      "confirmation": "",
+      "error_generic": ""
+    }
+  }
+}
